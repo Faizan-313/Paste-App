@@ -56,13 +56,11 @@ function ViewPaste() {
                                     />
                                 </svg>
                             </div>
-                            <input
-                                type="text"
-                                placeholder="Paste Title"
-                                disabled
-                                className="w-full px-4 py-3 text-base md:text-lg text-gray-800 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-200 disabled:opacity-75 disabled:cursor-not-allowed transition-all"
-                                value={paste.title}
-                            />
+                            <div
+                                className="w-full px-4 py-3 text-base md:text-lg text-gray-800 bg-gray-50 border border-gray-200"
+                            >
+                                {paste.title}
+                            </div>
                         </div>
 
                         {/* Content Section */}
@@ -85,13 +83,11 @@ function ViewPaste() {
                                     />
                                 </svg>
                             </div>
-                            <textarea
-                                placeholder="Your paste content here..."
-                                disabled
-                                className="w-full px-4  py-3 text-gray-800 text-base md:text-lg bg-gray-50 border border-gray-200 rounded-lg resize-none focus:ring-2 focus:ring-blue-200 disabled:opacity-75 disabled:cursor-not-allowed transition-all"
-                                value={paste.content}
-                                rows={(paste.content.length)/49}
-                            />
+                            <div
+                                className="w-full px-4 py-3 text-gray-800 text-base md:text-lg bg-gray-50 border border-gray-200"
+                            >
+                                {paste.content}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,6 +95,7 @@ function ViewPaste() {
         </div>
     );
 }
+
 
 export default ViewPaste
 

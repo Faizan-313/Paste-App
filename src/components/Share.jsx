@@ -7,6 +7,7 @@ function Share(prop) {
     function Copy() {
         navigator.clipboard.writeText(link);
         toast.success('Copied to Clipboard');
+        prop.close();
     }
 
     return (
