@@ -60,6 +60,7 @@ function Share(prop) {
                             </button>
                         </div>
                     </div>
+                    <p className='text-gray-500 text-center'>Currently the link will not work as expected!</p>
                 </div>
             </div>
         </div>
