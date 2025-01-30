@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import toast from 'react-hot-toast';
 
 function Share(prop) {
-    const link = `http://localhost:5173/paste/${prop.id.current}`
+    const link = `https://paste-app-eight-kappa.vercel.app/paste/${prop.id.current}`
 
     function Copy() {
         navigator.clipboard.writeText(link);
