@@ -14,6 +14,10 @@
 ✔️ **Toasts & Alerts** – Get success and error notifications for every action.  
 
 ---
+## Demo
+Check out the live demo of the application [here](https://paste-app-eight-kappa.vercel.app/).
+
+---
 
 ## 🛠️ Tech Stack  
 - **Frontend:** React and Tailwind CSS
