@@ -16,7 +16,7 @@
 ---
 
 ## 🛠️ Tech Stack  
-- **Frontend:** React  
+- **Frontend:** React and Tailwind CSS
 - **State Management:** Redux Toolkit  
 - **Notifications:** react-toastify  
 - **Storage:** Local Storage  
