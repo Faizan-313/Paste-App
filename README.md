@@ -31,7 +31,7 @@ npm install
 npm run dev
 ```
 
-##🌟 Contributing
+## 🌟 Contributing
 Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a pull request.
 
 Let me know if you want any modifications! 🚀😊
