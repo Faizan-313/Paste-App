@@ -110,7 +110,7 @@ function Home() {
                                     title='Copy'
                                 >
                                     <img
-                                        src='src\assets\icon-copy.png'
+                                        src='/assets/icon-copy.png'
                                         alt='Copy'
                                         className='h-5 w-5 opacity-75 hover:opacity-100 transition-opacity'
                                     />

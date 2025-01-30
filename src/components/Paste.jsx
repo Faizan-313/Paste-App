@@ -61,7 +61,7 @@ function Paste() {
                     >
                         <img  
                             className='w-6 h-6 mix-blend-multiply transition-transform duration-200 hover:scale-110'
-                            src={deleteAll ? '/src/assets/icon-deleteAll.gif' : 'src/assets/icon-deleteAll-static.png'} 
+                            src={deleteAll ? '/assets/icon-deleteAll.gif' : '/assets/icon-deleteAll-static.png'} 
                             alt='Delete all icon'
                         />
                     </button>
@@ -93,7 +93,7 @@ function Paste() {
                                             title='Edit'
                                         >
                                             <img
-                                                src='src\assets\icon-edit.png'
+                                                src='/assets/icon-edit.png'
                                                 alt='Edit'
                                                 className='h-5 w-5 opacity-75 hover:opacity-100 transition-opacity'
                                             />
@@ -105,7 +105,7 @@ function Paste() {
                                             title='Delete'
                                         >
                                             <img
-                                                src='src\assets\icon-delete.png'
+                                                src='/assets/icon-delete.png'
                                                 alt='Delete'
                                                 className='h-5 w-5 opacity-75 hover:opacity-100 transition-opacity'
                                             />
@@ -117,7 +117,7 @@ function Paste() {
                                             onClick={() => handleShare(paste.pasteId)}
                                         >
                                             <img
-                                                src='src\assets\icon-share.png'
+                                                src='/assets/icon-share.png'
                                                 alt='Share'
                                                 className='h-5 w-5 opacity-75 hover:opacity-100 transition-opacity'
                                             />
@@ -128,7 +128,7 @@ function Paste() {
                                             title='View'
                                         >
                                             <img
-                                                src='src\assets\icon-view.png'
+                                                src='/assets/icon-view.png'
                                                 alt='View'
                                                 className='h-5 w-5 opacity-75 hover:opacity-100 transition-opacity'
                                             />
@@ -143,7 +143,7 @@ function Paste() {
                                             title='Copy'
                                         >
                                             <img
-                                                src='src\assets\icon-copy.png'
+                                                src='/assets/icon-copy.png'
                                                 alt='Copy'
                                                 className='h-5 w-5 opacity-75 hover:opacity-100 transition-opacity'
                                             />
