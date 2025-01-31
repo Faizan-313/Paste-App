@@ -22,7 +22,7 @@ function Navbar() {
             justify-between items-center gap-4 sm:gap-8 md:gap-12 text-base sm:text-[1.5rem]'>
             
             {/* Navigation Links */}
-            <div className='flex gap-2 sm:gap-4 md:gap-6 lg:gap-8 flex-shrink-0'>
+            <div className='flex gap-1 sm:gap-4 md:gap-6 lg:gap-8 flex-shrink-0'>
                 <NavLink
                     to='/'
                     className={({ isActive }) =>
@@ -48,18 +48,18 @@ function Navbar() {
             </div>
 
             {/* Preferred Page Selector */}
-            <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-                <span className="text-lg sm:text-sm text-gray-600 hidden sm:inline-block">
-                    Preferred Default Page:
+            <div className="flex items-center gap-1 sm:gap-3 flex-shrink-0">
+                <span className="text-sm sm:text-sm text-gray-600 sm:inline-block">
+                    <span className='hidden sm:inline'>Your</span> Landing Page:
                 </span>
                 <div className="relative">
                     <select
                         value={preferredPage}
                         onChange={handlePageChange}
-                        className="appearance-none pl-3 pr-6 py-1 sm:pl-4 sm:pr-8  rounded-lg bg-gray-300 text-gray-700 cursor-pointer
+                        className="appearance-none pl-2 pr-2 py-1 sm:pl-4 sm:pr-8  rounded-lg bg-gray-300 text-gray-700 cursor-pointer
                             border-2 border-blue-500 hover:border-blue-600 focus:outline-none
                             focus:ring-2 focus:ring-blue-500 focus:border-transparent
-                            transition-all duration-200 shadow-sm text-xs sm:text-base w-28 sm:w-36"
+                            transition-all duration-200 shadow-sm text-xs sm:text-base w-18 sm:w-36"
                     >
                         <option value="/">Home</option>
                         <option value="/paste">Paste</option>
