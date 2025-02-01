@@ -93,9 +93,9 @@ function Home() {
                         <div>
                             <div className='flex justify-between bg-gray-400 border border-gray-400 border-b-0 rounded-t-lg'>
                                 <div className='w-full flex gap-x-[6px] items-center select-none group pl-[0.7rem]'>
-                                    <div class="w-[13px] h-[13px] rounded-full flex items-center justify-center p-[1px] overflow-hidden bg-[rgb(255,95,87)]"></div>
-                                    <div class="w-[13px] h-[13px] rounded-full flex items-center justify-center p-[1px] overflow-hidden bg-[rgb(254,188,46)]"></div>
-                                    <div class="w-[13px] h-[13px] rounded-full flex items-center justify-center p-[1px] overflow-hidden bg-[rgb(45,200,66)]"></div>
+                                    <div className="w-[13px] h-[13px] rounded-full flex items-center justify-center p-[1px] overflow-hidden bg-[rgb(255,95,87)]"></div>
+                                    <div className="w-[13px] h-[13px] rounded-full flex items-center justify-center p-[1px] overflow-hidden bg-[rgb(254,188,46)]"></div>
+                                    <div className="w-[13px] h-[13px] rounded-full flex items-center justify-center p-[1px] overflow-hidden bg-[rgb(45,200,66)]"></div>
                                 </div>
                                 <button
                                     onClick={() => {
