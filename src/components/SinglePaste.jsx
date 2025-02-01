@@ -12,7 +12,7 @@ function ViewPaste() {
     const paste = pastes.find((paste) => paste.pasteId === id);
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-300 py-8 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-400 py-8 px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto">
                 <div className="bg-gradient-to-br from-gray-40 to-gray-200 rounded-xl shadow-lg p-6 space-y-6 md:rounded-2xl md:p-8 md:space-y-8 transition-all duration-200 hover:shadow-xl">
                     {/* Header */}
