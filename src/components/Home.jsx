@@ -74,7 +74,6 @@ function Home() {
                             <input
                                 type="text"
                                 placeholder="Paste Title"
-                                autoFocus
                                 maxLength={32}
                                 className={`${(!titleAdded && title.length === 0) && 'border-2 border-red-600 animate-pulse'} w-full sm:flex-1 px-3 py-2.5 sm:px-4 sm:py-3 border border-gray-400 rounded-lg  outline-none transition-all text-sm sm:text-base`}
                                 value={title}
